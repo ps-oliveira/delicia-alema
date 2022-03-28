@@ -1,0 +1,160 @@
+﻿:root {
+    --black-bg: #000000
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--black-bg) repeat;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12pt;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 2.4em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+p,
+ul,
+ol {
+    margin-top: 0;
+    line-height: 180%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Header and Logo*/
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    background-color: #FF0000;
+    margin: 0px 150px 0px 150px;
+    padding: 30px 30px 30px 30px;
+}
+
+.delal {
+    text-transform: uppercase;
+    padding: 10px 0px 10px 0px;
+}
+
+.delal h1 {
+    font-weight: bold;
+    color: white;
+}
+
+
+/* Menu */
+
+.menu-container {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 150px 0px 150px;
+    background: yellow
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    padding: 0px 50px 0px 10px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.menu .current_page_item a {
+    background: #FFFF00;
+    color: #000000;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+/*content Container*/
+
+.destaques {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 20px 0px 20px 0px;
+}
+
+main {
+    display: block;
+    justify-content: center;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 150px 0px 150px;
+}
+
+.apf {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.imgal {
+    max-width: 140px;
+    border-radius: 100%;
+}
+
+.textapf {
+    text-align: center;
+    margin-top: 20px;
+    width: 120px;
+    margin-left: 10px;
+    line-height: 1.3;
+    word-wrap: normal;
+    color: white;
+}
+
+.prod:hover {
+    transform: scale(1.1);
+}
+
+
+/*end container*/
+
+
+/* Footer */
+
+.attribution {
+    margin-top: 40px;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
